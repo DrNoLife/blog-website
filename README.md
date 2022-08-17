@@ -22,5 +22,6 @@ The requirements are not completely set in stone yet, but as it stands right now
 - Markdown support.
 - Archive system (and further option to completely delete a post).
 - Mailing list.
+- API / Client design.
 
 As mentioned, the requirements are not set in stone yet...
