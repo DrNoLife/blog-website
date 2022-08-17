@@ -23,5 +23,8 @@ The requirements are not completely set in stone yet, but as it stands right now
 - Archive system (and further option to completely delete a post).
 - Mailing list.
 - API / Client design.
+- Response design for both desktop and mobile (but desktop first).
+- "I am not a robot" verification for mailing list.
+- Ability to pin a blog post to the frontpage (only one post can be featured, so this will overwrite the previous one. If none is selected, just display in chronological order).
 
 As mentioned, the requirements are not set in stone yet...
