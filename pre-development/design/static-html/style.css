@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    font-size: 10px;
+}
+
+.wrap-limit {
+    max-width: 1920px;
+}
+
+header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+header .header-title > div {
+    font-size: 3.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+header .header-title  > nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+header .header-title nav a {
+    color: inherit;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: none;
+    box-sizing: border-box;
+    font-style: italic;
+    transition: 0.2s ease-in-out;
+}
+
+header .header-title nav a:hover {
+    background-color:rgba(0, 0, 0, 0.05);
+}
+
+header .header-assist {
+    display: flex;
+}
+
+header .header-assist .login-container {
+    margin-left: 5vw;
+}
